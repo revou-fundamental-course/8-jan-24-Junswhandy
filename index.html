@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RevoU Mini Coding Project</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" href="img/revouLogo.png" type="gambar/tipe ikon" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemon&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kalkulator Luas Persegi</h1>
+      <label for="sideLength">Panjang Sisi:</label>
+      <input
+        type="number"
+        id="sideLength"
+        placeholder="Masukkan panjang sisi"
+      />
+
+      <button onclick="hitungLuasKeliling()">Hitung Luas dan Keliling</button>
+      <button onclick="resetForm()" class="btnreset">Reset</button>
+      <h3>Hasil :</h3>
+      <p id="rumus"></p>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
